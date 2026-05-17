@@ -27,23 +27,36 @@ A MAXScript plugin for 3ds Max 2023–2026 that exports selected 3D objects to R
 
 ## Installation
 
-1. Download `MUSTBE Tools-my3dmaxtoRev.mcr`
+1. Download `My3dsMaxToRevit.ms`
 
-2. Copy the file to your 3ds Max user macros folder:
-   C:\Users\YOUR_USERNAME\AppData\Local\Autodesk\3dsMax\2026 - 64bit\ENU\usermacros\
+2. Copy the file to your 3ds Max scripts folder:
+   C:\Program Files\Autodesk\3ds Max 2026\scripts\
  > Replace `2026` with your 3ds Max version year
 
 3. Open 3ds Max (or restart if already open)
 
-4. Go to **Customize → Customize User Interface**
+4. Run the script via **MAXScript → Run Script** and select `My3dsMaxToRevit.ms`
 
-5. In the **Toolbars** tab, find category **MUSTBE Tools**
+5. The plugin panel will open automatically
 
-6. Drag **my3dmaxtoRev** onto any toolbar or create a new one
+### Optional: Add to Toolbar
+
+To add a permanent button to your toolbar:
+
+1. After running the script at least once, go to **Customize → Customize User Interface**
+2. In the **Toolbars** tab, find category **MUSTBE Tools**
+3. Drag **my3dmaxtoRev** onto any toolbar
+
+> **Tip:** To run the script automatically on startup, copy it to:
+> ```
+> C:\Program Files\Autodesk\3ds Max 2026\scripts\Startup\
+> ```
+> This way the toolbar button will always be available without manually running the script each time.
 
 ---
 
 ## Usage
+<img width="324" height="547" alt="image" src="https://github.com/user-attachments/assets/b690229a-83d6-4a15-9f23-751b9275bc58" />
 
 ### Basic Export
 
